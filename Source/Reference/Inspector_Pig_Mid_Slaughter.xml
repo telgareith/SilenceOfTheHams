@@ -1,0 +1,405 @@
+<saveable Class="Pawn">
+    <def>Pig</def>
+    <id>Pig4203495</id>
+    <map>0</map>
+    <pos>(162, 0, 89)</pos>
+    <rot>3</rot>
+    <faction>Faction_10</faction>
+    <questTags IsNull="True"/>
+    <ThingsHauledToInventory/>
+    <kindDef>Pig</kindDef>
+    <babyNamingDeadline>43810487</babyNamingDeadline>
+    <name Class="NameSingle">
+        <name>pig 81</name>
+        <numerical>True</numerical>
+    </name>
+    <mindState>
+        <meleeThreat>null</meleeThreat>
+        <enemyTarget>null</enemyTarget>
+        <knownExploder>null</knownExploder>
+        <lastMannedThing>null</lastMannedThing>
+        <droppedWeapon>null</droppedWeapon>
+        <lastAttackedTarget>(0, 0, 0)</lastAttackedTarget>
+        <thinkData>
+            <keys>
+                <li>1541490075</li>
+                <li>1963597554</li>
+                <li>231176685</li>
+                <li>-596036596</li>
+                <li>-1186244821</li>
+            </keys>
+            <values>
+                <li>47857327</li>
+                <li>47855054</li>
+                <li>47855054</li>
+                <li>47855054</li>
+                <li>47855054</li>
+            </values>
+        </thinkData>
+        <lastJobTag>Idle</lastJobTag>
+        <lastIngestTick>47841769</lastIngestTick>
+        <lastEngageTargetTick>-99999</lastEngageTargetTick>
+        <lastAttackTargetTick>-99999</lastAttackTargetTick>
+        <canFleeIndividual>True</canFleeIndividual>
+        <lastMeleeThreatHarmTick>-99999</lastMeleeThreatHarmTick>
+        <duty IsNull="True"/>
+        <mentalStateHandler>
+            <curState IsNull="True"/>
+        </mentalStateHandler>
+        <mentalBreaker/>
+        <mentalFitGenerator/>
+        <inspirationHandler>
+            <curState IsNull="True"/>
+        </inspirationHandler>
+        <priorityWork>
+            <prioritizedCell>(-1000, -1000, -1000)</prioritizedCell>
+            <prioritizeTick>43750487</prioritizeTick>
+        </priorityWork>
+        <applyBedThoughtsOnLeave>True</applyBedThoughtsOnLeave>
+        <lastSelfTendTick>-99999</lastSelfTendTick>
+        <breachingTarget IsNull="True"/>
+        <lastHumanMeatIngestedTick>46384273</lastHumanMeatIngestedTick>
+        <lastBedDefSleptIn>AnimalSleepingSpot</lastBedDefSleptIn>
+        <babyAutoBreastfeedMoms>
+            <keys/>
+            <values/>
+        </babyAutoBreastfeedMoms>
+        <babyCaravanBreastfeed>
+            <keys/>
+            <values/>
+        </babyCaravanBreastfeed>
+        <resurrectTarget IsNull="True"/>
+        <lastRangedHarmTick>0</lastRangedHarmTick>
+    </mindState>
+    <jobs>
+        <curJob>
+            <commTarget>null</commTarget>
+            <verbToUse>null</verbToUse>
+            <bill>null</bill>
+            <lord>null</lord>
+            <quest>null</quest>
+            <def>Wait</def>
+            <loadID>20274468</loadID>
+            <targetQueueA IsNull="True"/>
+            <targetQueueB IsNull="True"/>
+            <countQueue IsNull="True"/>
+            <startTick>47857370</startTick>
+            <expiryInterval>180</expiryInterval>
+            <placedThings IsNull="True"/>
+            <psyfocusTargetLast>-1</psyfocusTargetLast>
+            <ability>null</ability>
+        </curJob>
+        <curDriver Class="JobDriver_Wait">
+            <curToilIndex>0</curToilIndex>
+            <ticksLeftThisToil>-75</ticksLeftThisToil>
+            <startTick>47857370</startTick>
+            <locomotionUrgencySameAs>null</locomotionUrgencySameAs>
+        </curDriver>
+        <jobQueue>
+            <jobs>
+                <li>
+                    <job>
+                        <commTarget>null</commTarget>
+                        <verbToUse>null</verbToUse>
+                        <bill>null</bill>
+                        <lord>null</lord>
+                        <quest>null</quest>
+                        <def>GotoWander</def>
+                        <loadID>20274437</loadID>
+                        <targetA>(157, 0, 86)</targetA>
+                        <targetQueueA IsNull="True"/>
+                        <targetQueueB IsNull="True"/>
+                        <countQueue IsNull="True"/>
+                        <startTick>47857327</startTick>
+                        <checkOverrideOnExpire>True</checkOverrideOnExpire>
+                        <placedThings IsNull="True"/>
+                        <locomotionUrgency>Walk</locomotionUrgency>
+                        <jobGiverThinkTree>Animal</jobGiverThinkTree>
+                        <psyfocusTargetLast>-1</psyfocusTargetLast>
+                        <ability>null</ability>
+                        <lastJobGiverKey>-1336613556</lastJobGiverKey>
+                    </job>
+                </li>
+            </jobs>
+        </jobQueue>
+        <formingCaravanTick>-1</formingCaravanTick>
+    </jobs>
+    <stances>
+        <stunner>
+            <showStunMote>True</showStunMote>
+        </stunner>
+        <stagger/>
+        <curStance Class="Stance_Mobile"/>
+    </stances>
+    <verbTracker>
+        <verbs>
+            <li Class="Verb_MeleeAttackDamage">
+                <loadID>Thing_Pig4203495_0_Bite</loadID>
+                <currentTarget>(0, 0, 0)</currentTarget>
+                <currentDestination>(0, 0, 0)</currentDestination>
+                <lastShotTick>-999999</lastShotTick>
+                <canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+            </li>
+            <li Class="Verb_MeleeAttackDamage">
+                <loadID>Thing_Pig4203495_1_Smash</loadID>
+                <currentTarget>(0, 0, 0)</currentTarget>
+                <currentDestination>(0, 0, 0)</currentDestination>
+                <lastShotTick>-999999</lastShotTick>
+                <canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow>
+            </li>
+        </verbs>
+    </verbTracker>
+    <natives>
+        <verbTracker>
+            <verbs IsNull="True"/>
+        </verbTracker>
+    </natives>
+    <meleeVerbs>
+        <curMeleeVerb>null</curMeleeVerb>
+        <terrainVerbs IsNull="True"/>
+    </meleeVerbs>
+    <rotationTracker/>
+    <pather>
+        <moving>False</moving>
+        <nextCell>(162, 0, 89)</nextCell>
+        <nextCellCostInitial>50</nextCellCostInitial>
+        <peMode>OnCell</peMode>
+        <lastMovedTick>47857445</lastMovedTick>
+    </pather>
+    <carryTracker>
+        <innerContainer>
+            <maxStacks>1</maxStacks>
+            <innerList/>
+        </innerContainer>
+    </carryTracker>
+    <apparel IsNull="True"/>
+    <story IsNull="True"/>
+    <equipment IsNull="True"/>
+    <drafter IsNull="True"/>
+    <ageTracker>
+        <ageBiologicalTicks>4106958</ageBiologicalTicks>
+        <birthAbsTicks>44120487</birthAbsTicks>
+        <growth>1</growth>
+        <nextGrowthCheckTick>9223372036854775807</nextGrowthCheckTick>
+        <ageReversalDemandedAtAgeTicks>91380000</ageReversalDemandedAtAgeTicks>
+    </ageTracker>
+    <healthTracker>
+        <beCarriedByCaravanIfSick>False</beCarriedByCaravanIfSick>
+        <hediffSet>
+            <hediffs/>
+        </hediffSet>
+        <surgeryBills>
+            <bills/>
+        </surgeryBills>
+        <immunity>
+            <imList/>
+        </immunity>
+    </healthTracker>
+    <records>
+        <records>
+            <vals>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>50.80478</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>4106960</li>
+                <li>0</li>
+                <li>0</li>
+                <li>741520</li>
+                <li>0</li>
+                <li>0</li>
+                <li>36560</li>
+                <li>0</li>
+                <li>4104640</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+            </vals>
+        </records>
+        <battleActive>null</battleActive>
+    </records>
+    <inventory>
+        <itemsNotForSale/>
+        <unpackedCaravanItems/>
+        <innerContainer>
+            <innerList/>
+        </innerContainer>
+    </inventory>
+    <filth>
+        <lastTerrainFilthDef>Filth_AnimalFilth</lastTerrainFilthDef>
+        <carriedFilth/>
+    </filth>
+    <roping>
+        <hitchingPostInt>null</hitchingPostInt>
+        <ropees/>
+    </roping>
+    <needs>
+        <needs>
+            <li Class="Need_Food">
+                <def>Food</def>
+                <curLevel>1.293042</curLevel>
+                <lastNonStarvingTick>47857402</lastNonStarvingTick>
+            </li>
+            <li Class="Need_Rest">
+                <def>Rest</def>
+                <curLevel>0.4157484</curLevel>
+            </li>
+        </needs>
+    </needs>
+    <guest IsNull="True"/>
+    <guilt IsNull="True"/>
+    <royalty IsNull="True"/>
+    <social>
+        <directRelations>
+            <li>
+                <def>Parent</def>
+                <otherPawn>Thing_Pig3463291</otherPawn>
+                <startTicks>43750487</startTicks>
+            </li>
+            <li>
+                <def>Parent</def>
+                <otherPawn>Thing_Pig3212231</otherPawn>
+                <startTicks>43750487</startTicks>
+            </li>
+        </directRelations>
+        <relativeInvolvedInRescueQuest>null</relativeInvolvedInRescueQuest>
+        <pregnancyApproaches>
+            <keys/>
+            <values/>
+        </pregnancyApproaches>
+        <romanceEnableTick>-1</romanceEnableTick>
+        <additionalPregnancyApproachData>
+            <partners>
+                <keys/>
+                <values/>
+            </partners>
+        </additionalPregnancyApproachData>
+    </social>
+    <psychicEntropy>
+        <currentPsyfocus>0.5868905</currentPsyfocus>
+        <limitEntropyAmount>True</limitEntropyAmount>
+    </psychicEntropy>
+    <ownership>
+        <ownedBed>Thing_AnimalSleepingSpot4618128</ownedBed>
+        <assignedMeditationSpot>null</assignedMeditationSpot>
+        <assignedGrave>null</assignedGrave>
+        <assignedThrone>null</assignedThrone>
+        <assignedDeathrestCasket>null</assignedDeathrestCasket>
+    </ownership>
+    <interactions/>
+    <skills IsNull="True"/>
+    <abilities IsNull="True"/>
+    <ideo IsNull="True"/>
+    <workSettings IsNull="True"/>
+    <trader IsNull="True"/>
+    <outfits IsNull="True"/>
+    <drugs IsNull="True"/>
+    <foodRestriction IsNull="True"/>
+    <timetable IsNull="True"/>
+    <playerSettings>
+        <joinTick>43750487</joinTick>
+        <medCare>NoMeds</medCare>
+        <areaAllowed>null</areaAllowed>
+        <master>null</master>
+    </playerSettings>
+    <training>
+        <wantedTrainables>
+            <vals>
+                <li>False</li>
+                <li>False</li>
+                <li>False</li>
+                <li>False</li>
+                <li>True</li>
+            </vals>
+        </wantedTrainables>
+        <steps>
+            <vals>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>0</li>
+                <li>5</li>
+            </vals>
+        </steps>
+        <learned>
+            <vals>
+                <li>False</li>
+                <li>False</li>
+                <li>False</li>
+                <li>False</li>
+                <li>True</li>
+            </vals>
+        </learned>
+        <countDecayFrom>47350500</countDecayFrom>
+    </training>
+    <style IsNull="True"/>
+    <styleObserver IsNull="True"/>
+    <connections>
+        <connectedThings/>
+    </connections>
+    <inventoryStock IsNull="True"/>
+    <treeSightings IsNull="True"/>
+    <thinker/>
+    <mechanitor IsNull="True"/>
+    <genes IsNull="True"/>
+    <learning IsNull="True"/>
+</saveable>
+
+<saveable Class="MoteProgressBar">
+<def>Mote_ProgressBar</def>
+<map>0</map>
+<pos>(162, 0, 89)</pos>
+<questTags IsNull="True"/>
+</saveable>
+
