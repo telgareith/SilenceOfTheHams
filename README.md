@@ -1,10 +1,10 @@
 # Announcing the Critically Acclaimed Silent Mod:
-## Silences of The Hams
+## Silence of The Hams
 
 ![Silence of The Hams Logo](https://github.com/telgareith/SilenceOfTheHams/blob/master/About/preview.png)
 
 Featuring award winning voice actors such as:
-- Golden goose
+- The Golden Goose
 - Hare
 - Mother Goat
 - Donkey
@@ -12,4 +12,4 @@ Featuring award winning voice actors such as:
 And the piesta de resistance:
 **The Three Little Pigs**
 
-Now, you don't have to hear any of them as the die. But you'll never forget the bed time stories, or the movie...
+You don't have to hear them as they die- But you'll never forget the bed time stories, or the movie...
