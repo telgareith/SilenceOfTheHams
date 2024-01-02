@@ -12,7 +12,6 @@ public class Modbase : Mod
     public Modbase(ModContentPack content) : base(content)
     {
         Instance = this;
-        //Settings = GetSettings<Settings>();
     }
 
     public static Modbase Instance
@@ -20,11 +19,4 @@ public class Modbase : Mod
         get;
         private set;
     }
-
-    //public override void DoSettingsWindowContents(Rect inRect) => Settings.DoSettingsWindowContents(inRect);
-    public override string SettingsCategory()
-    {
-        return "SilenceOfTheHams";
-    }
-    //public static Settings Settings { get; private set; }
 }

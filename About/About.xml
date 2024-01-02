@@ -3,22 +3,22 @@
     <name>Silence of The Hams</name>
     <author>telgareith</author>
     <packageId>telgareith.SilenceOfTheHams</packageId>
-    <description>[h1]Announcing the Critically Acclaimed Silent Mod:[/h1]
-        [h2][b]Silence of The Hams[/b][/h2]
+    <description>Announcing the Critically Acclaimed Silent Mod:
+Silence of The Hams
 
-        Featuring award winning voice actors such as:
-        [list]
-        [*] The Golden Goose
-        [*] Hare
-        [*] Mother Goat
-        [*] Donkey
-        [*] Wicked Wolf
-        [/list]
-        And the piesta de resistance:
-        [b]The Three Little Pigs[/b]
+Featuring award-winning voice actors such as:
+- The Golden Goose
+- Hare
+- Mother Goat
+- Donkey
+- Wicked Wolf
+And the piesta de resistance:
+The Three Little Pigs
 
-        You don't have to hear them as they die- But you'll never forget the bed time stories, or the movie...</description>
-     <modVersion>0.1.0</modVersion>
+You don't have to hear them as they die- But you'll never forget the bedtime stories, or the movie...
+
+This mod removes the noises livestock makes when they are slaughtered.</description>
+     <modVersion>0.1.2</modVersion>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>

@@ -10,7 +10,7 @@ public static class Init
         Harmony harmony = new Harmony("telgareith.SilenceOfTheHams");
         #if DEBUG
 		    Harmony.DEBUG = true;
-#endif
+        #endif
         harmony.PatchAll();
     }
 }
